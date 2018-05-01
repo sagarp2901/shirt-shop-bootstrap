@@ -1,0 +1,20 @@
+.action-button {
+    min-width: 135px;
+    height: 35px;
+    border-radius: 18px;
+}
+
+.image {
+    content: url('../../../assets/images/logo.png');
+    width: 500px;
+}
+
+.address-container {
+    flex-grow: 2;
+    background-color: #183473;
+    color: white;
+}
+
+h1 {
+    color: white;
+}

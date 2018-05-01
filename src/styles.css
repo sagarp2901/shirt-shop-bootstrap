@@ -38,6 +38,11 @@ body {
     color: #444444;
 }
 
+label {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
 .btn, .btn:focus, .btn:hover {
     background-color: #10A2DC;
     outline: 0;

@@ -8,10 +8,12 @@ import { HomeComponent } from './components/home/home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
+import { ShippingComponent } from './components/shipping/shipping.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent }
+  { path: 'home', component: HomeComponent },
+  { path: 'info', component: ShippingComponent }
 ];
 
 @NgModule({
@@ -19,7 +21,8 @@ const routes: Routes = [
     AppComponent,
     HomeComponent,
     SignupComponent,
-    LoginComponent
+    LoginComponent,
+    ShippingComponent
   ],
   imports: [
     BrowserModule,
