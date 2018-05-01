@@ -18,16 +18,3 @@
 h1 {
     color: white;
 }
-
-.btn-group, .dropdown-txt {
-    width: 100%;
-}
-
-.dropdown-txt {
-    background-color: white;
-}
-
-.state-btn {
-    max-width: 85%;
-}
-

@@ -1,7 +1,6 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col">
-      <!-- <div class="image"></div> -->
       <img src="../../../assets/images/logo.png">
     </div>
     <div class="col address-container">
@@ -47,18 +46,6 @@
                 <option value="" selected>Select</option>
                 <option *ngFor="let country of countries" [value]="country" (click)="selectCountry(country)">{{country}}</option>
               </select>
-              <!-- <div class="btn-group">
-                <button type="button" class="btn btn-md dropdown-txt">
-                  {{selectedCountry}}
-                </button>
-                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true"
-                  aria-expanded="false">
-                  <span class="sr-only">Toggle Dropdown</span>
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" *ngFor="let country of countries" (click)="selectCountry(country)">{{country}}</a>
-                </div>
-              </div> -->
             </div>
             <div class="form-group col-3">
               <label for="province">Province</label>
@@ -67,18 +54,6 @@
                 <option value="">Select</option>
                 <option *ngFor="let state of states[selectedCountry]" [value]="state" (click)="selectState(state)">{{state}}</option>
               </select>
-              <!-- <div class="btn-group">
-                <button type="button" class="btn btn-md dropdown-txt state-btn">
-                  {{selectedState}}
-                </button>
-                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true"
-                  aria-expanded="false">
-                  <span class="sr-only">Toggle Dropdown</span>
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" *ngFor="let state of states[selectedCountry]" (click)="selectState(state)">{{state}}</a>
-                </div>
-              </div> -->
             </div>
             <div class="form-group col-3">
               <label for="zip">Postal Code</label>
