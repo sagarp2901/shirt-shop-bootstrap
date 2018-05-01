@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import "~bootstrap/dist/css/bootstrap.css";
+@import '~font-awesome/css/font-awesome.css';
 
 h1, h2, h3, h4, body {
     font-family: 'Montserrat', sans-serif;
@@ -35,4 +36,9 @@ body {
     font-size: 20pt;
     font-weight: 400;
     color: #444444;
+}
+
+.btn, .btn:focus, .btn:hover {
+    background-color: #10A2DC;
+    outline: 0;
 }
