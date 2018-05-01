@@ -1,0 +1,33 @@
+.action-button {
+    min-width: 135px;
+    height: 35px;
+    border-radius: 18px;
+}
+
+.image {
+    content: url('../../../assets/images/logo.png');
+    width: 500px;
+}
+
+.address-container {
+    flex-grow: 2;
+    background-color: #183473;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.btn-group, .dropdown-txt {
+    width: 100%;
+}
+
+.dropdown-txt {
+    background-color: white;
+}
+
+.state-btn {
+    max-width: 85%;
+}
+

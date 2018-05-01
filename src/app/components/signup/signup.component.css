@@ -1,5 +1,9 @@
 button {
-    width: 135px;
+    min-width: 135px;
     height: 35px;
     border-radius: 18px;
+}
+
+.container {
+    background-color: #183473;
 }
