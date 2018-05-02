@@ -1,3 +1,17 @@
+.container {
+    display: table;
+    max-height: 100%;
+    max-width: 100%;
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 button {
     min-width: 135px;
     height: 35px;
@@ -8,7 +22,8 @@ button {
     display: block;
     text-align: center;
     overflow: hidden;
-    white-space: nowrap; 
+    white-space: nowrap;
+    color: white;
 }
 
 .hr > span {
@@ -23,7 +38,7 @@ button {
     top: 50%;
     width: 9999px;
     height: 1px;
-    background: grey;
+    background: white;
 }
 
 .hr > span:before {
@@ -34,4 +49,19 @@ button {
 .hr > span:after {
     left: 100%;
     margin-left: 15px;
+}
+
+.facebook-icon {
+    width: 10px;
+    margin-right: 12px;
+    margin-left: -10px;
+    margin-top: -2px;
+}
+
+
+.twitter-icon {
+    width: 18px;
+    margin-right: 20px;
+    margin-left: -10px;
+    margin-top: -2px;
 }
