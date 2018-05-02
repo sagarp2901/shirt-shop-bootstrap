@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900');
 @import "~bootstrap/dist/css/bootstrap.css";
 @import '~font-awesome/css/font-awesome.css';
 
@@ -41,6 +41,7 @@ body {
 label {
     font-size: 12pt;
     font-weight: bold;
+    color: #444444;
 }
 
 .btn, .btn:focus, .btn:hover {

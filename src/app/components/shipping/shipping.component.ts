@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { COUNTRIES, REGIONS } from '../../constants/countries-regions.constants';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-shipping',
   templateUrl: './shipping.component.html',
@@ -13,7 +15,7 @@ export class ShippingComponent implements OnInit {
   selectedState = 'Select';
 
   contactIntro = 'Welcome to the club, where can we ship your shirts to? You can always provide this information at checkout';
-  constructor() { }
+  constructor(private router: Router) { }
 
 
 
@@ -28,6 +30,14 @@ export class ShippingComponent implements OnInit {
 
   selectState(state) {
     this.selectedState = state;
+  }
+
+  doLater() {
+    this.router.navigateByUrl('/catalog');
+  }
+
+  save() {
+    this.doLater();
   }
 
 }

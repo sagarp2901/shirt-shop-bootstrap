@@ -9,11 +9,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
 import { ShippingComponent } from './components/shipping/shipping.component';
+import { CatalogComponent } from './components/catalog/catalog.component';
+import { ShirtComponent } from './components/shirt/shirt.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'info', component: ShippingComponent }
+  { path: 'info', component: ShippingComponent },
+  { path: 'catalog', component: CatalogComponent }
 ];
 
 @NgModule({
@@ -22,7 +25,9 @@ const routes: Routes = [
     HomeComponent,
     SignupComponent,
     LoginComponent,
-    ShippingComponent
+    ShippingComponent,
+    CatalogComponent,
+    ShirtComponent
   ],
   imports: [
     BrowserModule,
