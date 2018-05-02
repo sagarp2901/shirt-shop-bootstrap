@@ -1,0 +1,38 @@
+.card{
+    /* min-width: 255px; */
+    min-width: 321px;
+    max-width:418px;
+   /*  margin-top: 10px;
+    margin-bottom: 10px; */
+    padding: 10px;
+    margin:10px;
+}
+.card-title {
+    margin-top: 0.75rem;
+    font-size: 12pt;
+}
+
+p {
+    font-size: 8pt;
+}
+
+.row{
+    height: 30px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.text {
+    font-size:12pt;
+    padding-top: 5px;
+}
+
+.icon-basket {
+    /* width: 40px; */
+    content: url('../../../assets/images/icon-basket.svg') ;
+}
+
+.icon-edit {
+    /* width: 40px; */
+    content: url('../../../assets/images/icon-edit.svg');   
+}
