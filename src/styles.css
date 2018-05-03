@@ -101,3 +101,21 @@ label {
 .mat-tab-header {
     border-bottom: 1px solid #FFFFFF;
 }
+
+/* For bootstrap tabs */
+ngb-tabset ul li .nav-link.active, ngb-tabset ul li .nav-link:active{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #274686 !important;
+    border-color: #EEEEEE !important;
+    border-bottom: 2px solid #274686 !important;
+    background-color: #EEEEEE !important;
+}
+
+ngb-tabset ul li .nav-link{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #CDCDCD !important;
+}
