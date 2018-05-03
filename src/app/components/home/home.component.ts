@@ -9,7 +9,13 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  currentTabIndex = 0;
+
   ngOnInit() {
+  }
+
+  tabChanged(event) {
+    this.currentTabIndex = event.index;
   }
 
 }
