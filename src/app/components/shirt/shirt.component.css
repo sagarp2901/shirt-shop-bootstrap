@@ -1,19 +1,27 @@
 .card{
-    /* min-width: 255px; */
     min-width: 321px;
     max-width:418px;
-   /*  margin-top: 10px;
-    margin-bottom: 10px; */
     padding: 10px;
     margin:10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.26);
 }
+
+.img-fluid{
+    margin-bottom: 10px;
+}
+
 .card-title {
     margin-top: 0.75rem;
-    font-size: 12pt;
+    font-size: 18px;
+}
+
+.container{
+    margin-bottom: 10px;
 }
 
 p {
-    font-size: 8pt;
+    font-size: 12px;
 }
 
 .row{
@@ -23,16 +31,13 @@ p {
 }
 
 .text {
-    font-size:12pt;
-    padding-top: 5px;
+    font-size: 20px;
 }
 
 .icon-basket {
-    /* width: 40px; */
     content: url('../../../assets/images/icon-basket.svg') ;
 }
 
 .icon-edit {
-    /* width: 40px; */
     content: url('../../../assets/images/icon-edit.svg');   
 }

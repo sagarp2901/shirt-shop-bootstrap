@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-shirt',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShirtComponent implements OnInit {
 
+  @Input() shirt: any;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  renderImage(image) {
+    return '../../../assets/images/image';
   }
 
 }
