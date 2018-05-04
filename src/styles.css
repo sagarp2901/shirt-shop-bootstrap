@@ -20,9 +20,9 @@ h1 {
 }
 
 h2 {
-    font-size: 40pt;
-    font-weight: 800;
-    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFFFFF;
 }
 
 h3 {
@@ -44,9 +44,10 @@ body {
 }
 
 label {
-    font-size: 12pt;
-    font-weight: 400;
-    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .primary-btn {
@@ -87,7 +88,7 @@ label {
     opacity: 1 !important;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .mat-tab-label:focus{
