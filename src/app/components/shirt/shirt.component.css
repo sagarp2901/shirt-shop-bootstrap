@@ -26,7 +26,6 @@ p {
 
 .row{
     height: 30px;
-    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
